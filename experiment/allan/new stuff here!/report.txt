@@ -1,0 +1,40 @@
+--SGD--
+batch_size = 32
+learning_rate = 0.0001
+epochs = 12
+fine_tune_epochs = 6
+image_size = (112, 112)
+
+Fine-tuning Summary:
+Final Fine-tuning Training Loss: 3.843982357727854
+Final Fine-tuning Training Accuracy: 0.34339001645639056
+
+Fine-tuning Validation Summary:
+Final Fine-tuning Validation Accuracy: 0.3516483516483517
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.33      0.36      0.35       213
+           1       0.41      0.36      0.38       207
+           2       0.29      0.31      0.30       149
+
+    accuracy                           0.35       569
+   macro avg       0.34      0.34      0.34       569
+weighted avg       0.35      0.35      0.35       569
+
+
+
+
+
+
+
+
+
+
+--ADAMS--
+batch_size = 32
+learning_rate = 0.0001
+epochs = 10
+fine_tune_epochs = 5
+image_size = (112, 112)
